@@ -1,10 +1,7 @@
 package huy.dev;
 
-public class Shape {
+public abstract class Shape {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+		public abstract double dientich();
 
 }
