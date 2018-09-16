@@ -6,5 +6,15 @@ public abstract class Square extends Shape{
 		// TODO Auto-generated method stub
 
 	}
+	private double cr;
+	private double cd;
+	public Square (double cr,double cd) {
+		this.cd=cd;
+		this.cr=cr;
+	}
+	public double dientich() {
+		return cr*cd;
+	}
 
 }
+
