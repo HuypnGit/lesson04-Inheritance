@@ -1,10 +1,12 @@
 package huy.dev;
 
 public abstract class Circle extends Shape {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		private double r;
+		public Circle(double r) {
+			this.r=r;
+		}
+	@Override
+	public double dientich() {
+		return 3.14*r*r;
+		}
 	}
-
-}
